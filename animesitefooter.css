@@ -1,0 +1,185 @@
+.anime-footer{
+  //display: flex;
+  position: absolute;
+  width:100%;
+  height: 500px;
+ background-image: url("file:///C:\\Users\\admin\\Documents\\videositeexample\\animeImages\\Real images\\Naruto.png");
+  background-size:cover;
+  background-color:black
+}
+.anime-footer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  list-style:none;
+  margin-top:300px;
+  //background-color: blueviolet;
+ width:1332px;
+  height: 700px;
+  color:white;
+  border-color:black;
+  border:2px solid black;
+  border-radius:10px;
+  margin-bottom: -350px
+}
+.col-1{
+  list-style: none;
+  display:block;
+  transform: translateX(-120px) translateY(-200px);
+  padding: 0;
+}
+
+.col-1 #uparrow{
+  position: absolute;
+   transform: translateX(370px) translateY(-170px);
+  background: white;
+  border-radius: 50%;
+  border:2px solid black;
+}
+
+
+.col-1 p1{
+  font-size: 30px;
+   transform:  translateY(-50px) translateX(-180px);
+  position: absolute;
+  ;
+  color:whitesmoke;
+  transition: 0.2s ease;
+  ;width:300px;
+  
+}
+.col-1 p2{
+   transform: translateX(-180px) translateY(-50px);
+  margin-top:200px;
+  font-size: 20px;
+  position: absolute;
+  width:300px;
+  color:darkred;
+  font-weight: 600;
+  font-family: garamond
+    
+}
+.col-1 input{
+  display:inline;
+  transform:translatex(-180px) translateY(180px);
+  width:300px;
+  position: absolute;
+  height: 30px;
+  border:2px solid red;
+  border-radius: 10px;
+  background:none;
+
+}
+
+input::placeholder{
+  color:red
+}
+.col-1 #send-email{
+  transform:translateX(90px) translateY(180px);
+  position:absolute;
+  font-weight: 600
+}
+.col-2 ul{
+  display:block;
+  padding:0;
+  margin-right:20px;
+  margin-bottom: 20px;
+ 
+}
+
+.col-2 li{
+  list-style: none;
+  display:block;
+  transform: translateX(-320px) translateY(180px);
+  padding: 0;
+  padding-bottom: 20px;
+  font-size:16px;
+  font-family:sans;
+  transition:0.3s ease;
+}
+.col-2 li:hover{
+  color:red;
+}
+
+.col-3 ul{
+    display:block;
+  padding:0;
+  margin-right:40px;
+  margin-bottom: 20px;
+ 
+}
+.col-3 li 
+{list-style: none;
+  display:block;
+  transform: translateX(-100px) translateY(163px);
+  padding: 0;
+  padding-bottom: 20px;
+  font-size:16px;
+  font-family:sans;
+  transition:0.3s ease;
+}
+.col-3 li:hover{
+  color:red;
+}
+.col-4 ul{
+  display:inline-block;
+  padding:0;
+  margin-right:60px;
+  margin-bottom: 20px;
+ 
+}
+
+.col-4 li{
+  list-style: none;
+  display:block;
+  transform: translateX(550px) translateY(-163px);
+  padding: 0;
+  padding-bottom: 20px;
+  font-size:16px;
+  font-family:sans;
+  transition:0.3s ease;
+}
+.col-4 li img{
+  background:white;
+  border-radius: 50%;
+  border:2px solid red;
+  transition:0.3s ease
+}
+
+.col-4 img:hover{
+  transform:scale(1.5)
+}
+
+.col-3 p{
+  display:flex;
+  transform:translateX(-150px) translateY(300px);
+  font-weight:600;
+  font-family: garamond;
+  transition:0.3s ease
+}
+.col-3 p:hover{
+  color:red;
+}
+
+p7{
+   display:flex;
+  transform:translateX(460px) translateY(100px);
+  font-family:FrankRuehl;
+  
+  font-size:40px;
+  position: absolute;
+  
+}
+.red{
+  color:red;
+}
+
+p7 img{
+  position: absolute;
+    transform:translateX(146px)  translateY(4px)
+}
+
+
+
+
+

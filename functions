@@ -1,0 +1,124 @@
+*{
+  
+}
+
+function downloadbtn1(){
+const link=document.createElement("a");
+  link.href="Solo Leveling S01E01.mkv";
+  link.download="Solo-LevelingEP01";
+  link.click()
+}
+
+function downloadbtn2(){
+const link=document.createElement("a");
+  link.href="dandadan.mp4";
+  link.download="Dandadanep01";
+  link.click()
+}
+
+function downloadbtn3(){
+const link=document.createElement("a");
+  link.href="KaijuNo.8.mp4";
+  link.download="KaijuNo.8";
+  link.click()
+}
+
+function downloadbtn4(){
+const link=document.createElement("a");
+  link.href="blackbutler.mp4";
+  link.download="blackbutler";
+  link.click()
+}
+
+function downloadbtn5(){
+const link=document.createElement("a");
+  link.href="windbreaker.mp4";
+  link.download="windbreakerep01";
+  link.click()
+}
+
+function downloadbtn6(){
+const link=document.createElement("a");
+  link.href="BlueExcorsist.mp4";
+  link.download="BlueExcorsistep01";
+  link.click()
+}
+
+function downloadbtn7(){
+const link=document.createElement("a");
+  link.href="Blue lock:U-20.mp4";
+  link.download="Blue lock:U-20";
+  link.click()
+}
+
+function downloadbtn8(){
+const link=document.createElement("a");
+  link.href="Bleach.mp4";
+  link.download="bleach";
+  link.click()
+}
+
+function downloadbtn9(){
+const link=document.createElement("a");
+  link.href="momonga.mp4";
+  link.download="momongaep01";
+  link.click()
+}
+
+function downloadbtn10(){
+const link=document.createElement("a");
+  link.href="Shiki.mp4";
+  link.download="Shiki Ryougi Kara";
+  link.click()
+}
+
+function downloadbtn11(){
+const link=document.createElement("a");
+  link.href="Jujustu Kaisen 0.mp4";
+  link.download="Jujustu Kaisen 0";
+  link.click()
+}
+
+function downloadbtn12(){
+const link=document.createElement("a");
+  link.href="Devil May cry.mp4";
+  link.download="Devil May cry ep01";
+  link.click()
+}
+
+function downloadbtn13(){
+const link=document.createElement("a");
+  link.href="Arcane: League of legends.mp4";
+  link.download="Arcane: League of legends";
+  link.click()
+}
+
+function downloadbtn14(){
+const link=document.createElement("a");
+  link.href="Invincible Season 3.mp4";
+  link.download="Invincible Season 3 ep01";
+  link.click()
+}
+
+function downloadbtn15(){
+const link=document.createElement("a");
+  link.href="Attack On Titan S3.mp4";
+  link.download="Attack On Titan S3 ep01";
+  link.click()
+}
+
+function downloadbtn16(){
+const link=document.createElement("a");
+  link.href="Beserk: First Blood.mp4";
+  link.download="Beserk: First Blood ep01";
+  link.click()
+}
+
+function downloadbtn17(){
+const link=document.createElement("a");
+  link.href="Haikyuu Season 1.mp4";
+  link.download="Haikyuu Season 1 ep01";
+  link.click()
+}
+
+

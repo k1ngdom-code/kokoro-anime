@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Banner Page</title>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="animesitefooter.css">
+<link rel="stylesheet" href="test.css">
+<link rel="stylesheet" href="sidebar.css">
+<link rel="stylesheet" href="navbar.css">
+<link rel="stylesheet" href="animeDownloader.css">
+<link rel="stylesheet" href="modal.css">
+<link rel="stylesheet" href="responsiveness.css">
+</head>
+<body>
+
+
+<!--Top navigation-->
+
+<nav class="top-nav" id ="topnav">
+<ul class="top">
+<li><p class="Logo"><span class="white">Ko</span>KoRo</p><br><p class="play-icon"><img src="play.png"></img></p></li>
+
+<li class="hide"><a href="Home.html"></a>Home</li>
+<li class="hide"><a href="Cataloguepage.html"></a>Catalogue</li>
+<li  class="hide"><a href="Subcriptions.html"></a>Subcriptions</li>
+</ul>
+
+<p class="user-icon">Profile<i id="userr" class="bx bx-user" onclick="OpenProfile()"></i>
+
+
+
+</nav>
+
+<div class="dropdownmenu" id="drop">
+  <p>Profile</p>
+  <p>Watchlist</p>
+  <p>Signout</p>
+</div>
+
+<div class="menu-btn" id="menu" onclick="showSideBar()"><a href="#"></a><i class="bx bx-menu"></i>
+</div>
+
+<!--  -->
+
+
+<!--side navigation-->
+
+<nav class="sidenav" id="sidebr">
+
+<ul class="nd-bar">
+<li class="x-btn" onclick="hideSideBar()" id="hide"><a href="#"><i class="bx bx-x"></i></li>
+<div class="dsd">
+<li id="home"><a href="textbox.html"></a>Home<i class="bx bx-home"></i></li>
+<li><a href="top-picks"></a>Top-picks<i class="bx bx-fire"></i></li>
+<li><a href="Popular.html"></a>Popular<i class="bx bx-group"></i></li>
+<li><a href="CategoriesAnime.html"></a>Categories<i class="bx bx-camera"></i></li>
+<li><a href="Subscriptions.html"></a>Subcriptions<i class="bx bxs-money"></i></li>
+<li><a href="#"></a>Socials<i class="bx bxl-meta"></i></li>
+</div>
+<ul class="social-icons">
+<li><i class="bx bxl-facebook"></i>
+<li><i class="bx bxl-twitter"></i>
+<li><i class="bx bxl-youtube"></i>
+<li><i class="bx bxl-instagram"></i>
+<li><i class="bx bxl-whatsapp"></i>
+</ul>
+</ul>
+</nav>
+
+<!-- -->
+
+
+  <!-- Video Banner Section -->
+
+  <section class="video-banner">
+    <video  id="myVideo" autoplay muted playsinline paused poster="solo-leveling-3840x2160-20374.jpg">
+      <source src="SL3.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+   
+  </section>
+<div class="hero-notes">
+<p1 class="Animename">Solo Leveling</p1>
+<p2 class="Genre">Action</p2>
+<p3>8.9<i class="bx bxs-star"></i></p3>
+<p4>After being brutally slaughtered in a high-rank dungeon, Jinwoo comes back with the power all hunters wish for...to level up.
+</p4>
+
+<button class="Watch-btn" id="watch" onclick="downloadbtn1()">Watch now<i class="bx bxs-play"></i></button>
+<button class="Remind-btn" id="remind">Remind later<i class="bx bxs-arrow-right"></i></button>
+
+</div>
+
+  <!--  -->
+
+
+ <!--Content section-->
+
+
+  <div class="firstcontent">
+   
+
+<div class="Listing" id="Trending-Series">
+<div class="width">
+<p3>Trending-Series</p3>
+<a href="More-categories.html">See more <i class="bx bx-arrow-right"></i></a>
+
+
+<img src="animeImages\Real images\dandadan.png" id="Listing-1"><p4>Dandadan</p4>
+<p5>Year:2024</p5>
+<p6>Rating:8.9<i class="bx bxs-star"></i></p6> 
+<button class="Watch-btn" id="watch" onclick="downloadbtn2()">Watch now<i class="bx bxs-pause"></i></button>
+</img>
+<div id="imagecard2">
+<img src="animeImages\Real images\kaiju-no-8-mission.jpg" id="Listing-2">
+<div class="contents">
+<p4>Kaiju No.8</p4>
+<p5>Year:2024</p5>
+<p6>Rating:8.7<i class="bx bxs-star"></i></p6> 
+<button class="Watch-btn" id="watch" onclick="downloadbtn3()">Watch now<i class="bx bxs-play"></i></button>
+</div>
+
+</img>
+</div>
+
+<div id="imagecard3">
+<img src="animeImages\Real images\blackbutler.jpg" id="Listing-3">
+<div class="contents2">
+<p4>Black butler</p4></img>
+<p5>Year:2023</p5>
+<p6>Rating:8.7<i class="bx bxs-star"></i></p6> 
+
+<div class="offsetters">
+
+<button class="Watch-btn" id="watch" onclick="downloadbtn4()">Watch now<i class="bx bxs-play"></i></button>
+
+</div>
+</div>
+</img>
+</div>
+
+</div>
+</div>
+<p9 class="nine">Popular</p9>
+<div class="imageContainer1">
+    
+      <div class="wrapper1">
+<div class="IMAGE1">
+        <img src="animeImages\Real images\wind-breaker.jpg">
+        <p1 class="Animename2">Wind Breaker S2</p1>
+        <p2 class="Genre2">Action</p2><p2 class="Genre3">Shounen</p2>
+        <p3>8.2<i class="bx bxs-star"></i></p3>
+<p4>
+Welcome back to Furin High school an institution famous for it's population of brawny brutes who solve every conflict with a show of strenght.
+</p4>
+
+        <button class="Watch-btn2" id="watch" onclick="downloadbtn5()">Watch Trailer<i class="bx bxs-play"></i></button>
+<button class="Watch-btn2" id="bell">Remind Me<i class="bx bx-bell"></i></button>
+
+      </img>
+</div>
+
+<!--<div class="IMAGE1" id="fix">
+      <img src="animeImages\Real images\solo-leveling s2.png">
+      <p1 class="Animename2">Solo leveling S2</p1>
+      <p2 class="Genre2">Action</p2><p class="Genre3" id="nawa"> Fantasy</p2>
+      <p3>6.9<i class="bx bxs-star"></i></p3>
+<p4>
+After no shortage of hardship the 4th Jeju island raid comes to a close. But for Jinwoo, the hunt continues.
+</p4>
+     <button class="Watch-btn2" id="watch">Watch Trailer<i class="bx bxs-play"></i></button>
+<button class="Watch-btn2" id="bell">Remind Me<i class="bx bx-bell"></i></button>
+    </img>
+</div>
+
+<div class="IMAGE1" id="fix">
+    <img src="animeImages\Real images\Naruto.png">
+    <p1 class="Animename2">Naruto</p1>
+    <p2 class="Genre2">Action</p2><p class="Genre3"> Fantasy</p2>
+    <p3>8.2<i class="bx bxs-star"></i></p3>
+<p4>
+Naruto Uzumaki, amischievious adolecent ninja, struggles as he searches for recognition and dreams of becoming the Hokage.
+</p4>
+<a href="" download>
+    <button class="Watch-btn2" id="watch">Watch Trailer<i class="bx bxs-play"></i></button>
+<button class="Watch-btn2" id="bell">Remind Me<i class="bx bx-bell"></i></button>
+</a>
+  </img>
+</div>
+
+<div class="IMAGE1">
+  <img src="animeImages\Real images\jujutsu-kaisen.jpg">
+  <p1 class="Animename2">Jujutsu Kaisen S2<i class="bx bxs-star"></i></p1>
+  <p2 class="Genre2">Action, Superhero</p2>
+  <p3>8.2<i class="bx bxs-star"></i></p3>
+<p4>
+Gojo has been sealed in the Prison realm. Its time for the three sorcerer groups to enter Shibuya and save entrapped civilians and rescue Satoru Gojo.
+</p4>
+<a href="" download>
+<button class="Watch-btn2" id="watch">Watch Trailer<i class="bx bxs-play"></i></button>
+<button class="Watch-btn2" id="bell">Remind Me<i class="bx bx-bell"></i></button>
+</a>
+</img>
+</div>-->
+
+      </div>
+      
+    </div>
+
+<div class="Listing" id="top-picks">
+<div class="width">
+<p3>Top picks</p3>
+<a href="More-categories.html">See more <i class="bx bx-arrow-right"></i></a>
+
+<img src="animeImages\Real images\blueE.png" id="Listing-1"><p4>Blue Excorsist</p4></img>
+<p5>Year:2024</p5>
+<p6>Rating:7.9<i class="bx bxs-star"></i></p6> 
+
+<button class="Watch-btn" id="watch" onclick="downloadbtn6()">Watch now<i class="bx bxs-play"></i></button>
+
+</img>
+
+<div id="imagecard2">
+<img src="animeImages\Real images\blue-lock.jpg" id="Listing-2">
+<div class="contents">
+<p4>Blue lock:U-20</p4></img>
+<p5>Year:2024</p5>
+<p6>Rating:7.7<i class="bx bxs-star"></i></p6>
+
+<button class="Watch-btn" id="watch" onclick="downloadbtn7()">Watch now<i class="bx bxs-play"></i></button>
+
+ </div>
+</img>
+</div>
+
+<div id="imagecard3">
+<img src="animeImages\Real images\bleach-thousand.jpg" id="Listing-3">
+<div class="contents2">
+<p4>Bleach: A Thousand Year Blood War</p4></img>
+<p5>Year:2023</p5>
+<p6>Rating:8.7<i class="bx bxs-star"></i></p6>
+
+<button class="Watch-btn" id="watch" onclick="downloadbtn8()">Watch now<i class="bx bxs-play"></i></button> 
+
+</img>
+
+</div>
+</div>
+</div>
+<div class="Listing" id="hot">
+<div class="width">
+  <p3>Hot Listing</p3>
+  <a href="More-categories.html">See more <i class="bx bx-arrow-right"></i></a>
+  
+  <img src="animeImages\Real images\momonga-overlord.jpg" id="Listing-1" ><p4>Momonga Overlord</p4></img>
+  <p5>Year:2024</p5>
+  <p6>Rating:7.9<i class="bx bxs-star"></i></p6>
+
+<button class="Watch-btn" id="watch" onclick="downloadbtn9()">Watch now<i class="bx bxs-play"></i></button> 
+
+  </img>
+ 
+<div id="imagecard2">
+  <img src="animeImages\Real images\shiki-ryougi-kara.jpg" id="Listing-2">
+<div class="contents">
+<p4>Shiki Ryougi Kara</p4></img>
+  <p5>Year:2022</p5>
+  <p6>Rating:9.0<i class="bx bxs-star"></i></p6>
+
+<button class="Watch-btn" id="watch" onclick="downloadbtn10()">Watch now<i class="bx bxs-play"></i></button>
+
+</div>
+  </img>
+  </div>
+
+<div id="imagecard3">
+  <img src="animeImages\Real images\yuta-okkotsu.jpg" id="Listing-3">
+<div class="contents2">
+<p4>Jujustu Kaisen 0</p4></img>
+  <p5>Year:2023</p5>
+  <p6>Rating:6.7<i class="bx bxs-star"></i> </p6>
+
+<button class="Watch-btn" id="watch" onclick="downloadbtn11()">Watch now<i class="bx bxs-play"></i></button>
+
+</div>
+  </img>
+  
+  </div>
+
+  </div>
+</div>
+
+<div class="width2">
+<p9 class="pnine">Animated Series</p9>
+    <div class="imageContainer2">
+    
+      <div class="wrapper2">
+<div class="IMAGE2">
+        <img src="animeImages\Real images\devilmaycry.jpg">
+        <p1 class="Animename2">Devil May cry</p1>
+        <p2 class="Genre2">Action Fantasy</p2>
+        <p3 class="Genre3">8.2<i class="bx bxs-star"></i></p3>
+<p4>
+When a mysterious villian threatens to open the gates to hell, a devillishly handsome demon hunter could be the world's best hope of salvation.
+</p4>
+
+        <button class="Watch-btn2" id="watcher" onclick="downloadbtn12()">Watch Trailer<i class="bx bxs-play"></i></button>
+<button class="Watch-btn2" id="bell">Remind Me<i class="bx bx-bell"></i></button>
+
+      </img>
+</div>
+
+<!--<div class="IMAGE1">
+      <img src="animeImages\Real images\terminator02.jpg">
+      <p1 class="Animename2">Terminator Zero<i class="bx bxs-star"></i></p1>
+      <p2 class="Genre2">Action Sci-fi</p2>
+      <p10>6.9<i class="bx bxs-star"></i></p3>
+<p4>
+A warrior from a post-apocalyptuc future travels to 1997 to protect an AI scientist from being hunted by a cyborg.
+</p4>
+      <button class="Watch-btn2" id="watcher">Watch Trailer<i class="bx bxs-play"></i></button>
+<button class="Watch-btn2" id="bell">Remind Me<i class="bx bx-bell"></i></button>
+    </img>
+</div>-->
+
+<div class="IMAGE2">
+    <img src="animeImages\Real images\jinx-arcane-league.jpg">
+    <p1 class="Animename2">Arcane: League of legends</p1>
+    <p2 class="Genre2">Action Sci-fi</p2>
+    <p3 class="Genre3">8.2<i class="bx bxs-star"></i></p3>
+<p4>
+The origins of two iconic league champions, set in the utopian Piltover and the opressed underground of Zaun.
+</p4>
+   
+<button class="Watch-btn2" id="watcher" onclick="downloadbtn13()">Watch Trailer<i class="bx bxs-play"></i></button>
+<button class="Watch-btn2" id="bell">Remind Me<i class="bx bx-bell"></i></button>
+
+  </img>
+</div>
+
+<div class="IMAGE2">
+  <img src="animeImages\Real images\invincible-season-3.jpg">
+  <p1 class="Animename2">Invincible Season 3</p1>
+  <p2 class="Genre2">Action Superhero</p2>
+  <p3 class="Genre3">8.2<i class="bx bxs-star"></i></p3>
+<p4>
+Mark Grayson gets more than he expected in being the son of the strongest superhero on Earth.
+</p4>
+
+  <button class="Watch-btn2" id="watcher" onclick="downloadbtn14()">Watch Trailer<i class="bx bxs-play"></i></button>
+<button class="Watch-btn2" id="bell">Remind Me<i class="bx bx-bell"></i></button>
+
+</img>
+</div>
+      </div>
+      
+    </div>
+
+
+</div>
+
+  <div class="Listing" id="Trending-Movies">
+<div class="width">
+    <p3>More</p3>
+    <a href="More-categories.html">See more <i class="bx bx-arrow-right"></i></a>
+    
+    <img src="animeImages\Real images\attack-on-titan.jpg" id="Listing-2"><p4>Attack On Titan S3</p4>
+    <p5>Year:2024</p5>
+    <p6>Rating:8.9<i class="bx bxs-star"></i> </p6>
+
+<button class="Watch-btn" id="watch" onclick="downloadbtn15()">Watch now<i class="bx bxs-play"></i></button>
+
+    </img>
+    
+<div id="imagecard2">
+    <img src="animeImages\Real images\beserk.jpg" id="Listing-2">
+<div class="contents">
+<p4>Beserk: First Blood</p4>
+    <p5>Year:2022</p5>
+    <p6>Rating:7.7<i class="bx bxs-star"></i></p6> 
+
+<button class="Watch-btn" id="watch" onclick="downloadbtn16()">Watch now<i class="bx bxs-play"></i></button>
+
+</div>
+    </img>
+</div>   
+
+<div id="imagecard3"> 
+    <img src="animeImages\Real images\haikyuu.jpg" id="Listing-3">
+<div class="contents2">
+<p4>Haikyuu Season 1</p4></img>
+    <p5>Year:2023</p5>
+    <p6>Rating:8.7<i class="bx bxs-star"></i></p6>
+
+<button class="Watch-btn" id="watch" onclick="downloadbtn17()">Watch now<i class="bx bxs-play"></i></button>
+
+</div>
+    </img>
+</div>    
+    </div>
+</div>
+
+<div class="series-genres">
+<label for="series-genres">Series Genres</label>
+
+  <button class="blocks">Comedy<img src="animeImages/popcorn.png"></img></button>
+  <button class="blocks">Thriller<img src="animeImages/security.png"></img></button>
+  <button class="blocks">Crime<img src="handcuffs.png"></img></button>
+  <button class="blocks">Drama<img src="animeImages/video-player.png"></img></button>
+  <button class="blocks">Action<img src="handgun.png"></img></button>
+  <button class="blocks">Racing<img src="animeImages/sport-car.png"></img></button>
+
+</div>
+
+<!--<div class="modal" id="openasknote">
+<div class="promptcontent">
+<p2 class="question">Do you want to download this anime?</p2>
+<button class="yes" onclick="confirmDownload()">Download</button>
+<button class="no" onclick="abortandclose()">Cancel</button>
+</div>
+</div>
+-->
+<div class="hero-text">
+<p11 class="Animetitle">Solo Leveling</p11>
+<p12 class="AnimeGenre">Action</p12>
+<p13 class="number3">8.9<i class="bx bxs-star"></i></p13>
+<p14 class="description">After being brutally slaughtered in a high-rank dungeon, Jinwoo comes back with the power all hunters wish for...to level up.
+</p14>
+<div class="buttonz">
+<button class="Watch-btnn" id="watching" onclick="downloadbtn1()">Watch now<i class="bx bxs-play"></i></button>
+<button class="Remind-btnn" id="reminding">Remind later<i class="bx bxs-arrow-right"></i></button>
+</div>
+</div>
+
+
+
+<footer class="anime-footer">
+  <div class="col-1">
+  <img src="animeImages/up-chevron.png" id="uparrow" onclick="backTotop()">
+  <p1>Start your entertainment journey</p1>
+  <p2>Subcsribe to our newsletter</p2>
+
+    <input type="text" placeholder="exmaple@gmail.com" id="email">
+    <img src="animeImages/communication.png" id="send-email">
+  </div>
+<div class="col-2">
+  <ul class="anilist">
+    <li>Home</li>
+    <li>Anime</li>
+    <li>News</li>
+    <li>Blog</li>
+    
+  </ul>
+</div>
+
+<div class="col-3">
+  <ul class="anilist">
+    <li>Terms and condition</li>
+    <li>Privacy policy</li>
+    <li>Cookie policy</li>
+  </ul>
+</div>
+
+  <div class="col-4">
+<ul class="anilist">
+    <li><img src="icons8-facebook-30.png"></li>
+    <li><img src="instagram.png"></li>
+    <li><img src="telegram.png"></li>
+    <li><img src="youtube.png"></li>
+</ul>
+  </div>
+<div class="col-3">
+  <p>Copyright 2025. All rights reserved</p>
+</div>
+    <p7>Ko<span class="red">KoRo</span>
+<img src="play.png"></img></p7>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<script src="sidebar.js"></script>
+
+<script src="dropdown.js"></script>
+
+
+
+
+</body>
+</html>

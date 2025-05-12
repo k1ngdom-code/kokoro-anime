@@ -1,0 +1,34 @@
+.imageContainer1{
+  width:100%;
+  height:500px;
+  // position: absolute;
+  transform:translate(0%, -50%);
+  overflow:hidden;
+ // border:20px solid white;
+  top:50%;
+  left:50%;
+  display: flex;
+  
+}
+.wrapper{
+  width:100%;
+  display:flex;
+position: absolute;
+animation: slide 16s infinite
+}
+p9 {
+  display:flex;
+  font-size:27px;
+  border-left: 5px solid red;
+  padding-left:10px;
+  font-family:Bernard MT Condensed;
+  display: flex;
+  transform:translateY(-20px);
+}
+.imageContainer1 img{
+  display:flex;
+  width:100%;
+  height: 500px;
+  object-fit: cover
+}
+

@@ -1,0 +1,35 @@
+.modal{
+  background: white;
+  //z-index: 1;
+  position:fixed;
+ //ottom: 111px;
+  width:500px;
+  height: 200px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border:2px solid red;
+  border-radius: 20px;
+    
+  transform: translate(75%, -4800px);
+}
+.modal p2{
+  transform:translateY(-20px);
+  display: flex;
+  font-size:20px;
+  color:#8b0000;;
+  font-family: ;
+  
+}
+.modal .yes,.no{
+  width:100px;
+  height: 40px;
+  margin-right:40px;
+  border:2px solid #8b0000;
+  border-radius: 5px;
+  background:none;
+  transform: translateX(25px)translateY(20px)
+}
+
+
+

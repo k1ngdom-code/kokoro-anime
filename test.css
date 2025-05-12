@@ -1,0 +1,262 @@
+p9 {
+  display:flex;
+  font-size:27px;
+  border-left: 5px solid red;
+  padding-left:10px;
+  font-family:Bernard MT Condensed;
+  display: flex;
+  transform:translateY(-400px);
+}
+.imageContainer1{
+  //display: flex;
+  justify-content: center;
+  transform:translateY(-380px)
+}
+.imageContainer1 img{
+  width:1342px;
+  object-fit: cover;
+  
+}
+.wrapper1{
+  display: flex;
+  //position: absolute;
+  overflow: hidden;
+  
+}
+.IMAGE1{
+// animation:slide 20s infinite; 
+  //animation-play-state: paused
+}
+.IMAGE1:hover{
+  animation-play-state: paused
+}
+@keyframes slide{
+ 0% {
+    transform:translateX(0)
+  }
+  16%{
+    transform:translateX(0px)
+  }
+  33%{
+    transform:translateX(-1342px)
+  }
+  
+  50%{
+    transform:translateX(-1342px)
+  }
+  66%{
+    transform: translateX(-2684px)
+  }
+  83%{
+    transform: translateX(-2684px)
+  }
+  100%{
+    transform:translateX();
+  }
+}
+//.wrapper1 p1{
+  position: absolute;
+  color: white
+}
+
+.imageContainer2{
+ // display: flex;
+  justify-content: center;
+  //overflow: hidden;
+  width: 100%;
+  transform:translateY(-730px)
+}
+
+.imageContainer2 img{
+  width:1350px;
+  object-fit: cover;
+ // margin-left:-5px;
+  
+}
+.Listing img{
+  transition: 0.2s ease;
+} 
+
+.Listing img:hover{
+  transform: scale(1.02)
+}
+.wrapper2 img{
+  
+  height: 700px;
+}
+.wrapper2{
+  display: flex;
+  width: 1342px;
+  overflow: hidden
+}
+.IMAGE2 p1{
+  display: block;
+  transform: translateX(50px) translateY(-580px);
+  color:white;
+  font-size: 60px;
+  font-family: garamond
+}
+
+.IMAGE2 p2{
+   color:white;
+  border:2px solid;
+ margin-right: 10px;
+  display:flex;
+  position: absolute;
+  transform: translateY(-750px) translateX(40px);
+  //width:100px;
+  padding: 2px;
+   border:2px solid #ce0707;
+  height: 20px;
+  font-weight:600;
+  color:red
+}
+.IMAGE2 p3{
+  display: flex;
+  position: absolute;
+   transform:  translateY(-680px) translateX(20px);
+  color:whitesmoke
+}
+.IMAGE2 p4{
+  position: absolute;
+  transform: translateY(-520px) translateX(20px);
+  width:500px;
+  color:whitesmoke
+}
+.IMAGE2 button{
+  padding:10px;
+  transform: translateY(-130px) translateX(40px)
+   ;margin-left:10px;
+  background: none;
+  color:#ce0707;
+  border:2px solid ;
+  transition: 0.4s ease;
+  font-size:15px;
+  font-weight:600;
+  font-family:sans-seriff;
+ // position: absolute
+}
+//#watch{
+  display: flex;
+  transform:translateY(-160px);
+  
+}
+ 
+
+
+.IMAGE2{
+  animation:slide 20s infinite;
+  //animation-play-state: paused;
+}
+@keyframes slide{
+ 0% {
+    transform:translateX(0)
+  }
+  16%{
+    transform:translateX(0px)
+  }
+  33%{
+    transform:translateX(-1350px)
+  }
+  
+  50%{
+    transform:translateX(-1350px)
+  }
+  66%{
+    transform: translateX(-2700px)
+  }
+  83%{
+    transform: translateX(-2700px)
+  }
+  100%{
+    transform:translateX();
+  }
+}
+.pnine{
+  transform:translateY(-750px)
+}
+
+.IMAGE1 p1{
+  display: block;
+  transform: translateX(50px) translateY(-650px);
+  color:white;
+  font-size: 50px
+}
+.IMAGE1 p2{
+  color:white;
+  border:2px solid ;
+ margin-right: 10px;
+  display:flex;
+  position: absolute;
+  transform: translateY(-100px);
+  width:100px;
+  padding: 2px; 
+}
+//.Genre2{
+  color:white;
+  border:2px solid;
+ margin-le: 10px;
+  display:flex;
+  position: absolute;
+  transform: translateY(-750px) translateX(20px);
+  //width:100px;
+  padding: 2px; 
+  border:2px solid #ce0707
+}
+
+.IMAGE1 p2{
+  color:white;
+  border:2px solid;
+ margin-right: 10px;
+  display:flex;
+  position: absolute;
+  transform: translateY(-750px) translateX(40px);
+  width:50px;
+  padding: 2px;
+   border:2px solid #ce0707
+}
+.IMAGE1 p3{
+  display: flex;
+  position: absolute;
+   transform:  translateY(-720px) translateX(20px);
+  color:whitesmoke
+}
+.IMAGE1 p4{
+  position: absolute;
+  transform: translateY(-600px) translateX(20px);
+  width:500px;
+  color:whitesmoke
+}
+
+
+.IMAGE1 button:hover{
+  color:#ce0707;
+  background: black
+}
+
+.IMAGE1 button{
+  padding:10px;
+  transform: translateY(-120px) translateX(20px)
+   ;margin-left:10px;
+  background: none;
+  color:#ce0707;
+  border:2px solid ;
+  transition: 0.4s ease;
+  font-size:15px;
+  font-weight:600;
+  font-family:sans-seriff;
+}
+
+.IMAGE1 .Genre3{
+  position: absolute;
+  transform:translateX(100px) translateY(-750px);
+  width:60px
+}
+
+
+
+
+
+
+
+

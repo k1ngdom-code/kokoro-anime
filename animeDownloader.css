@@ -1,0 +1,333 @@
+body{
+    background:linear-gradient( to right, #8b0000, #b22222 25%, #c43931 50%, #b22222 75%, #8b0000);
+ 
+}
+section video{
+  display:flex;
+  width:101.2%;
+  object-fit:cover;
+  height:500px;
+  margin-left:-8px;
+
+}
+section .hero-notes{
+  display:inline-block;
+  justify-content: left;
+  align-items: left;
+  position: absolute;
+  transform:translateY(-100px);
+  width: 300px;
+  margin-left:30px;
+ 
+  
+}
+.Animename{
+  font-size:53px;
+  font-family: Baskerville Old Face;
+ color:white;
+  position: absolute;
+  transform:translateY(-140px);
+ // width:100px;
+  font-weight:600;
+ 
+}
+
+.Genre{
+  color:black;
+  position: absolute;
+  transform:translateY(-75px) scale(0.8);
+  font-size:20px;
+  background: white;
+  padding:5px;
+  border-radius: 10px;
+  border:1px solid red;
+  
+}
+.hero-notes p3{
+  color:white;
+  position: absolute;
+  transform:translateY(-73px) translateX(70px);
+  font-size:20px;
+}
+.hero-notes p4{
+  color:white;
+  font-family: garamond;
+  display:flex;
+  transform:translateY(-33px);
+  font-size: 17px
+}
+.hero-notes .bxs-star{
+  color:gold;
+padding:2px;
+}
+.Watch-btn, .Remind-btn{
+  background: black;
+  color:white;
+  padding:10px;
+  border-radius: 10px;
+  width:110px;
+border:2px solid red;
+  transform: translateY(-1px);
+  font-size:15px;
+  font-weight:600;
+  font-family:sans-seriff;
+  transition: 0.5s ease;
+}
+.Watch-btn::before{
+  content:"";
+  position: absolute;
+  inset:0;
+  display:inline-block;
+  background:#ce0707;
+  border-radius: 8px;
+  transform: scaleX(0);
+  transform-origin: left;
+  z-index: -1;
+  transition: transform 0.4s;
+}
+.Watch-btn:hover{
+  color:black;
+}
+.Watch-btn:hover::before{
+  transform: scaleX(1);
+  transform-origin:left;
+}
+
+
+.Remind-btn::before{
+  content:"";
+  position: absolute;
+  inset:0;
+  display:inline-block;
+  background-color:#ce0707;
+  border-radius: 8px;
+  transform: scaleX(0);
+  transform-origin: left;
+  z-index: -1;
+  transition: transform 0.4s;
+}
+.Remind-btn:hover{
+  color:black;
+}
+.Remind-btn:hover::before{
+  transform: scaleX(1);
+  transform-origin:left;
+}
+
+.firstcontent{
+  display:block;
+  justify-content: center;
+  align-items: center
+}
+.firstcontent{
+  margin-top:100px
+}
+.Listing p3{
+  display:flex;
+  font-size:27px;
+  border-left: 5px solid red;
+  padding-left:10px;
+  font-family:Bernard MT Condensed;
+  
+}
+.Listing a{
+  display:flex;
+  text-decoration: none;
+  color:red;
+  transform: translateX(1180px) translateY(-20px);
+  font-size: 20px;
+  transition: 0.5s ease
+}
+.Listing a:active{
+  color:white;
+}
+.Listing a:hover{
+  color:black;
+  font-weight: 500;
+}
+
+.Listing{
+  width: 200px;
+  
+}
+#imagecard2{
+  display:flex;
+  transform:translateX(455px) translateY(-318px);
+  justify-items: center;
+  align-items: center;
+  
+}
+.contents{
+  display:;
+  position: absolute;
+  //background: black;
+  width:200px;
+  transform:translateY(160px)
+}
+
+#imagecard3{
+   display:flex;
+  transform:translateX(920px) translateY(-576.75px);
+  justify-items: center;
+  align-items: center;
+  
+}
+.contents2{
+  display:;
+  position: absolute;
+  //background: black;
+  width:200px;
+  transform:translateY(160px)
+}
+#Listing-1{
+  display:flex;
+  width:440px;
+  height:258.75px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center
+}
+#Listing-2{
+  display:flex;
+  width:440px;
+  height:258.75px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center
+}
+#Listing-3{
+  display:flex;
+  width:440px;
+  height:258.75px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center
+}
+.series-genres{
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  width:;
+  position: absolute;
+  gap:100px;
+  transform:translateY(-330px);
+  grid-template-columns: repeat(7, 1fr);
+}
+.blocks{
+  width:100px;
+  display: inline;
+  object-fit: cover;
+  font-size:15px;
+  font-family: arial;
+  font-weight:600;
+  height:45px;
+  background: black;
+  border:1px solid red;
+  color:white;
+  padding-right: 30px;
+  border-radius: 5px
+}
+.blocks img{
+  display:flex;
+ position: absolute;
+  width:23px;
+  transform:translateX(62px) translateY(-20px);
+  border:1px solid red;
+  border-radius: 50%;
+  background: red;
+  
+}
+.series-genres label{
+  display: flex;
+  position: absolute;
+  transform: translateY(-60px);
+   font-size:27px;
+  border-left: 5px solid red;
+  padding-left:10px;
+  font-family:Bernard MT Condensed;
+  
+}
+.white{
+  color:white;
+  font-family: FrankRuehl;
+  font-weight: 600
+}
+#top-picks, #hot{
+  transform:translateY(-350px)
+}
+#Trending-Movies{
+  transform: translateY(-650px);
+  margin-bottom: -700px
+}
+footer{
+  bottom:0px
+}
+.series-genres .blocks{
+  transform:translateX(130px) translateY(50px)
+}
+
+p4{
+  color:white;
+  font-family: garamond;
+  font-size:20px;
+  font-weight: 600;
+}
+p6{
+  transform:translateX(-00px);
+  position: absolute;
+  display: flex;
+  font-size:16px
+}
+p5{
+  display: none;
+}
+.bxs-star{
+  color:gold;
+}
+.Listing #watch{
+  display: flex;
+  transform:translateX(330px) translateY(-20px)
+}
+#imagecard3 .contents2 p4{
+  transform: translateY(10px);
+  //position: absolute;
+  display: flex
+}
+#imagecard3 .contents2 p6{
+  transform:translateY(5px)
+}
+#top-picks #imagecard3 button{
+  margin-top:-15px
+}
+.offsetters{
+  transform:translateX(-38px)
+}
+#Trending-Series #imagecard3 p4{
+  transform: translateY(-2px)
+}
+
+#Trending-Series #imagecard3 p6{
+  transform: translateY(-2px)
+}
+#hot #imagecard3 p4{
+   transform: translateY(-2px)
+}
+#hot #imagecard3 p6{
+  transform: translateY(-2px)
+}
+#hot #imagecard3 button{
+  margin-top:2px
+}
+#Trending-Movies  #imagecard3 p4{
+  transform: translateY(-2px)
+}
+#Trending-Movies  #imagecard3 p6{
+  transform: translateY(-2px)
+}
+#Trending-Movies #imagecard3 button{
+  margin-top:0.5px
+}
+
+
+
+
